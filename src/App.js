@@ -8,7 +8,7 @@ function App() {
 
   const [task, setTask]=useState([]);
 
-
+   
 
 
   const pageStyle = {
@@ -38,7 +38,7 @@ function App() {
         </Col>
       </Row>
     
-      <Row className="justify-content-center align-items-center flex-grow-1">
+      <Row className="justify-content-center flex-grow-1">
         <Col xs="auto">
         
           <Input task={task} setTask={setTask}/>
